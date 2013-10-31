@@ -1,5 +1,10 @@
 $(document).ready(function(){
-	$('header.top').fadeIn('slow');
   // Write your Javascript!
+  $("nav").naver({
+    animated: true
+});
+});
 
+$(function() {
+    FastClick.attach(document.body);
 });

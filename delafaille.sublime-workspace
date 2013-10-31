@@ -1,0 +1,222 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "/* Write your CSS! */\n\nhtml {\n  height: 100%;\n}\nimg{\n	max-width:100%;\n}\n\nbody {\n  background: url(apple-touch-icon.png) no-repeat center center;\n}\nheader{\n	width:100%;\n	height:190px;\n	overflow:hidden;\n	position:relative;\n	background:url(header-bg.jpg) center repeat-x;\n\n		.logo{\n			margin: 0 auto;\n			width: 96%;\n			padding:0 2%;\n			text-align: center;\n		}\n}\n/*SEARCHBAR*/\n.searchbar{\n	width:220px;\n	margin:0 auto;\n}\n.searchbar input[type=\"search\"]{\n	width:180px;\n	height:30px;\n	float:left;\n	background:#fcfbde;\n	border:1px solid #bd941b;\n}\n.searchbar .submit{\n	width:32px;\n	height:32px;\n	float:left;\n	background:#fcfbde;\n	border:1px solid #bd941b;\n}\n/***************/\n\n@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {\n  \n  /* Styles for mobile */\n\n}\n\n@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {\n\n  /* Styles for tablet */\n\n}\n\n@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {\n\n  /* Don't forget your Retina CSS! */\n  \n  body {\n    background-size: 72px 72px;\n  }\n\n}",
+			"file": "assets/css/style.scss",
+			"file_size": 1097,
+			"file_write_time": 1383218992000000,
+			"settings":
+			{
+				"buffer_size": 1053,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/_header.html",
+			"settings":
+			{
+				"buffer_size": 772,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tomvaniersel/Google Drive/Mad Robot/klanten/delafaille/delafaille-template/assets/js/app.js",
+		"/Users/tomvaniersel/Google Drive/Mad Robot/klanten/delafaille/delafaille-template/assets/css/reset.css",
+		"/Users/tomvaniersel/Google Drive/Mad Robot/klanten/delafaille/delafaille-template/includes/_nav.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"delafaille"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/css/style.scss",
+					"settings":
+					{
+						"buffer_size": 1053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								357
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 206.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "includes/_header.html",
+					"settings":
+					{
+						"buffer_size": 772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								721,
+								721
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
