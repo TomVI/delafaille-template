@@ -20,6 +20,7 @@
  	
  	@media screen and (min-width: 768px) {
  		.naver .naver-wrapper { height: auto !important; }
+ 		
  	}
  	
 	@media screen and (max-width: 768px) {
@@ -28,7 +29,7 @@
 		.naver.active .naver-wrapper { height: 0px; overflow: hidden; }
 		
 		/* Animated - Experimental! Performs poorly on mobile */
-		.naver.animated .naver-wrapper {
+		s.naver.animated .naver-wrapper {
 			-webkit-transition: height 0.2s ease-out;
 			   -moz-transition: height 0.2s ease-out;
 			    -ms-transition: height 0.2s ease-out;
@@ -44,3 +45,6 @@
 		}
 		.naver.animated.open .naver-container { opacity: 1; }
 	}
+
+
+	.lt-ie9 .naver .naver-wrapper { height: auto !important; }

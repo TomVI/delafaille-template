@@ -3,6 +3,11 @@ $(document).ready(function(){
   $("nav").naver({
     animated: true
 });
+  $(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
 });
 
 $(function() {

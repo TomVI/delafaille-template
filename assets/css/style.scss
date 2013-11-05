@@ -1,10 +1,16 @@
 /* Write your CSS! */
 $yellowtext:#cdb370;
+$redtext:#4c0804;
 
 html {
   height: 100%;
   font-size: 62.5%;
 }
+.wrapper{
+		max-width: 1200px;
+		margin:0 auto;
+		overflow: hidden;
+	}
 img{
 	max-width:100%;
 }
@@ -26,10 +32,24 @@ header{
 			text-align: center;
 		}
 }
+
+/*Typography*/
+h1{}
+h2{
+	font-size:18px;font-size:1.8rem;
+	font-weight:bold;
+	color:$redtext;
+	margin-bottom:10px;margin-bottom:1rem;
+}
+p{
+	line-height:160%
+}
+a{
+	text-decoration:none;
+}
 /*SEARCHBAR*/
 .searchbar{
 	width:96%;
-
 	padding:0 2%;
 	margin:0 auto;
 	overflow:hidden;
@@ -89,9 +109,36 @@ nav {
 		}
 	}
 }
-
-
-
+/*Footer*/
+footer{
+	overflow:hidden;
+	background:url(footer.png) center bottom repeat-x;
+	height:255px;
+	text-align:center;
+	p{
+		padding:85px 0 0 0;
+		color:#f7eec3;
+		a{
+			color:#f7eec3;
+		}
+	}
+	span.title{
+		text-transform: uppercase;
+	}
+}
+/*Layout element*/
+section{
+	overflow:hidden;
+}
+.three{
+	width:100%;
+	float:left;
+	margin:2% 0;
+	text-align: center;
+	img{
+		margin:0 auto;
+	}
+}
 
 @media only screen and (min-width : 768px) {
 
@@ -104,6 +151,56 @@ nav {
   	float:right;
   }
   nav {
+  	padding-top:0;
+  	padding-bottom:0;
+		ul{
+			li{
+				width:25%;
+				padding:0;
+				border-bottom:0 none;
+				text-align: center;
+				a{
+					color: $yellowtext;
+					text-decoration: none;
+					display: block;
+					padding:3% 0;
+					width:40%;
+					margin:0 auto;
+				}
+				a:hover,
+				a.active{
+					background-color: #370d05;
+					color:#fff;
+				}
+			}
+		}
+	}
+	.three{
+	width:30%;
+	margin:1.5%;
+	float:left;
+	text-align: center;
+		
+	}
+
+}
+@media only screen and (min-width : 1024px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+
+  /* Don't forget your Retina CSS! */
+  
+  body {
+    background-size: 72px 72px;
+  }
+
+}
+
+
+
+/*IE8 styles out of the media queries*/
+.lt-ie9 nav {
   	padding-top:0;
   	padding-bottom:0;
 	ul{
@@ -128,15 +225,10 @@ nav {
 		}
 	}
 }
-
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
-
-  /* Don't forget your Retina CSS! */
-  
-  body {
-    background-size: 72px 72px;
+.lt-ie9 .searchbar{
+  	position:relative;
+  	top:-81px;
+  	width:30%;
+  	max-width:220px;
+  	float:right;
   }
-
-}
